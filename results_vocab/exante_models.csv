@@ -1,0 +1,136 @@
+model,spec,term,b,p,r2,sites
+screen,r_edited,r_edited,-0.40199877092665837,2.4038958940179537e-05,0.16695681460522904,152.0
+screen_placebo,r_edited,r_edited,0.020467617626884003,0.7113273840154162,0.0008591851151484864,154.0
+screen,r_ea_any,r_ea_any,-0.40514339952245165,2.2070381537515663e-05,0.1683254066936073,152.0
+screen_placebo,r_ea_any,r_ea_any,0.02129181410533912,0.7038739056333053,0.000921408824028358,154.0
+screen,r_ea30,r_ea30,-0.4151306597459898,1.7510187512560614e-05,0.17552352356974166,152.0
+screen_placebo,r_ea30,r_ea30,0.022885623067783464,0.6871580442173288,0.0010601217749641734,154.0
+screen,rank + r_ea30,rank,0.0647966071677109,0.28564005295648653,0.18089959516911713,152.0
+screen,rank + r_ea30,r_ea30,-0.39599844649349675,1.6493183376103686e-05,0.18089959516911713,152.0
+screen_placebo,rank + r_ea30,rank,-0.014519945366698886,0.7005181891044425,0.0015790305891191236,154.0
+screen_placebo,rank + r_ea30,r_ea30,0.01875207091355192,0.7471971573258092,0.0015790305891191236,154.0
+screen,r_ea30_self + r_ea30_other,r_ea30_self,-0.3850703762590874,9.595246556617386e-06,0.1878908058470513,152.0
+screen,r_ea30_self + r_ea30_other,r_ea30_other,-0.08464647953454274,0.2359610318463743,0.1878908058470513,152.0
+screen_placebo,r_ea30_self + r_ea30_other,r_ea30_self,-0.005470902232743997,0.9106079303708824,0.005416460840886206,154.0
+screen_placebo,r_ea30_self + r_ea30_other,r_ea30_other,0.0535312861504783,0.2719101960980813,0.005416460840886206,154.0
+screen,rank + r_ea30 + r_size + r_len,rank,0.08063217166796707,0.19385389359686245,0.19082826103543804,152.0
+screen,rank + r_ea30 + r_size + r_len,r_ea30,-0.38314636478530156,2.89073379200016e-05,0.19082826103543804,152.0
+screen,rank + r_ea30 + r_size + r_len,r_size,-0.10736195155459492,0.1691961310006821,0.19082826103543804,152.0
+screen,rank + r_ea30 + r_size + r_len,r_len,0.0009416832116915796,0.9896576009898004,0.19082826103543804,152.0
+screen_placebo,rank + r_ea30,rank,-0.014519945366698886,0.7005181891044425,0.0015790305891191236,154.0
+screen_placebo,rank + r_ea30,r_ea30,0.01875207091355192,0.7471971573258092,0.0015790305891191236,154.0
+tercile_ea30,t0,mean,0.25829382107013554,,0.16015358879423267,0.37588699038943296
+tercile_ea30,t1,mean,0.0755101896254421,,0.04207819747646149,0.1132569593444404
+tercile_ea30,t2,mean,0.0028311458451661686,,-0.04528598620419355,0.04981883816764664
+cells_ea30,hicode_loedit,mean,0.251171212396887,,,48.0
+cells_ea30,hicode_hiedit,mean,0.005687763436130834,,,30.0
+cells_ea30,locode_loedit,mean,0.07384491076789358,,,28.0
+cells_ea30,locode_hiedit,mean,0.04874109614357539,,,46.0
+tercile_ea_any,t0,mean,0.2450878867931065,,0.14480497980687676,0.36052016104260914
+tercile_ea_any,t1,mean,0.07445240237199331,,0.039499227504180605,0.11125798110482607
+tercile_ea_any,t2,mean,0.009359736984022595,,-0.03291468980077708,0.0534682372467052
+cells_ea_any,hicode_loedit,mean,0.2422100794208577,,,48.0
+cells_ea_any,hicode_hiedit,mean,0.012509557779017714,,,30.0
+cells_ea_any,locode_loedit,mean,0.07384491076789358,,,28.0
+cells_ea_any,locode_hiedit,mean,0.04874109614357539,,,46.0
+panel_ext trend=False placebo=False,r_ea30,r_ea30,-0.015489829399175025,0.00013985325369171198,,170.0
+panel_ext trend=False placebo=False,r_ea_any,r_ea_any,-0.014950950149510306,0.0002022933034593899,,170.0
+panel_ext trend=False placebo=False,rank+r_ea30,rank,0.005840963511120978,0.022911964679060197,,170.0
+panel_ext trend=False placebo=False,rank+r_ea30,r_ea30,-0.011317029653495052,0.0004480040176279441,,170.0
+panel_ext trend=False placebo=False,rank+r_ea30,rank:r_ea30,-0.02829341069366475,0.00647592348400984,,170.0
+panel_ext trend=False placebo=False,r_ea30_self+r_ea30_other,r_ea30_self,-0.016697412603906638,1.238057171844743e-05,,170.0
+panel_ext trend=False placebo=False,r_ea30_self+r_ea30_other,r_ea30_other,0.0008871388695935098,0.7671145770247543,,170.0
+panel_ext trend=False placebo=False,rank+r_ea30+r_size+r_len+r_math,rank,0.006415448240675271,0.03646087171739237,,170.0
+panel_ext trend=False placebo=False,rank+r_ea30+r_size+r_len+r_math,r_ea30,-0.014847160828594984,0.00012488623200276403,,170.0
+panel_ext trend=False placebo=False,rank+r_ea30+r_size+r_len+r_math,r_size,-0.008926448162607301,0.025347422891104907,,170.0
+panel_ext trend=False placebo=False,rank+r_ea30+r_size+r_len+r_math,r_len,0.003424193759109427,0.32871748020838853,,170.0
+panel_ext trend=False placebo=False,rank+r_ea30+r_size+r_len+r_math,r_math,-0.001199138202684843,0.6897484854891722,,170.0
+panel_ext trend=False placebo=True,r_ea30,r_ea30,0.0001133482441348993,0.9596016533713254,,170.0
+panel_ext trend=False placebo=True,r_ea_any,r_ea_any,0.00042535862353199213,0.8467724771462896,,170.0
+panel_ext trend=False placebo=True,rank+r_ea30,rank,-0.0012215253345733358,0.5088805755642976,,170.0
+panel_ext trend=False placebo=True,rank+r_ea30,r_ea30,-0.0006052048542700883,0.7488347507782072,,170.0
+panel_ext trend=False placebo=True,rank+r_ea30,rank:r_ea30,0.004266275786451378,0.49111117712118213,,170.0
+panel_ext trend=False placebo=True,r_ea30_self+r_ea30_other,r_ea30_self,-0.001673558975117623,0.43647211010401266,,170.0
+panel_ext trend=False placebo=True,r_ea30_self+r_ea30_other,r_ea30_other,0.005080152900659385,0.017822032516458974,,170.0
+panel_ext trend=False placebo=True,rank+r_ea30+r_size+r_len+r_math,rank,0.0018752809990671337,0.343185024191623,,170.0
+panel_ext trend=False placebo=True,rank+r_ea30+r_size+r_len+r_math,r_ea30,-0.0013513132188502643,0.5816179225413718,,170.0
+panel_ext trend=False placebo=True,rank+r_ea30+r_size+r_len+r_math,r_size,-0.0014105407109519308,0.6202521461409609,,170.0
+panel_ext trend=False placebo=True,rank+r_ea30+r_size+r_len+r_math,r_len,0.003535588473895745,0.07782575127919895,,170.0
+panel_ext trend=False placebo=True,rank+r_ea30+r_size+r_len+r_math,r_math,0.0024599831379966916,0.22138401733134516,,170.0
+panel_ext trend=True placebo=False,r_ea30,r_ea30,-0.01648769431099162,4.899603423173772e-05,,170.0
+panel_ext trend=True placebo=False,r_ea_any,r_ea_any,-0.016136003289629216,6.375707700420199e-05,,170.0
+panel_ext trend=True placebo=False,rank+r_ea30,rank,0.008118603766176062,0.002090686017830324,,170.0
+panel_ext trend=True placebo=False,rank+r_ea30,r_ea30,-0.011988540390058134,4.866423830971726e-05,,170.0
+panel_ext trend=True placebo=False,rank+r_ea30,rank:r_ea30,-0.025138231918488362,0.009042996383203696,,170.0
+panel_ext trend=True placebo=False,r_ea30_self+r_ea30_other,r_ea30_self,-0.015903612077468994,1.1938213987558757e-05,,170.0
+panel_ext trend=True placebo=False,r_ea30_self+r_ea30_other,r_ea30_other,-0.0045324346250551475,0.14568481349958803,,170.0
+panel_ext trend=True placebo=False,rank+r_ea30+r_size+r_len+r_math,rank,0.0048405216096213035,0.05269528505275725,,170.0
+panel_ext trend=True placebo=False,rank+r_ea30+r_size+r_len+r_math,r_ea30,-0.0137189106309689,0.00011120880751747691,,170.0
+panel_ext trend=True placebo=False,rank+r_ea30+r_size+r_len+r_math,r_size,-0.009704823919157425,0.009710989055859804,,170.0
+panel_ext trend=True placebo=False,rank+r_ea30+r_size+r_len+r_math,r_len,-0.003051335130435653,0.23264163507698532,,170.0
+panel_ext trend=True placebo=False,rank+r_ea30+r_size+r_len+r_math,r_math,-0.0012099681093529317,0.601239543922547,,170.0
+panel_ext trend=True placebo=True,r_ea30,r_ea30,-0.0012542507962245996,0.634418291605241,,170.0
+panel_ext trend=True placebo=True,r_ea_any,r_ea_any,-0.000828211592977333,0.7518167888465079,,170.0
+panel_ext trend=True placebo=True,rank+r_ea30,rank,0.0005721383035714128,0.800725409180732,,170.0
+panel_ext trend=True placebo=True,rank+r_ea30,r_ea30,-0.002139061440926863,0.3309190996240121,,170.0
+panel_ext trend=True placebo=True,rank+r_ea30,rank:r_ea30,0.009489590538386182,0.17165372168904336,,170.0
+panel_ext trend=True placebo=True,r_ea30_self+r_ea30_other,r_ea30_self,-0.0028746895322184934,0.28821006163323004,,170.0
+panel_ext trend=True placebo=True,r_ea30_self+r_ea30_other,r_ea30_other,0.0036065988060109888,0.21977575036726438,,170.0
+panel_ext trend=True placebo=True,rank+r_ea30+r_size+r_len+r_math,rank,0.0008828034428420041,0.7111417555567336,,170.0
+panel_ext trend=True placebo=True,rank+r_ea30+r_size+r_len+r_math,r_ea30,-0.0010331417230103708,0.726705325856493,,170.0
+panel_ext trend=True placebo=True,rank+r_ea30+r_size+r_len+r_math,r_size,-0.003455410631190981,0.36559579537741516,,170.0
+panel_ext trend=True placebo=True,rank+r_ea30+r_size+r_len+r_math,r_len,-0.001527388532047555,0.5722484645892478,,170.0
+panel_ext trend=True placebo=True,rank+r_ea30+r_size+r_len+r_math,r_math,0.0031319999740604056,0.2723403167765587,,170.0
+panel_anyx trend=False placebo=False,r_ea30,r_ea30,-0.013937823670481686,0.015006046138940604,,170.0
+panel_anyx trend=False placebo=False,r_ea_any,r_ea_any,-0.013508424967749967,0.016672961615371126,,170.0
+panel_anyx trend=False placebo=False,rank+r_ea30,rank,0.007017265311245556,0.057379433653751505,,170.0
+panel_anyx trend=False placebo=False,rank+r_ea30,r_ea30,-0.009503165729555604,0.060253392864615694,,170.0
+panel_anyx trend=False placebo=False,rank+r_ea30,rank:r_ea30,-0.028226823928551734,0.08779574295239048,,170.0
+panel_anyx trend=False placebo=False,r_ea30_self+r_ea30_other,r_ea30_self,-0.013842981436022559,0.013801713202231568,,170.0
+panel_anyx trend=False placebo=False,r_ea30_self+r_ea30_other,r_ea30_other,-0.0003580918361919148,0.9399652422540774,,170.0
+panel_anyx trend=False placebo=False,rank+r_ea30+r_size+r_len+r_math,rank,0.008781299571583679,0.16782288025855063,,170.0
+panel_anyx trend=False placebo=False,rank+r_ea30+r_size+r_len+r_math,r_ea30,-0.014578631590327778,0.008664389201274582,,170.0
+panel_anyx trend=False placebo=False,rank+r_ea30+r_size+r_len+r_math,r_size,-0.003809000873927832,0.48238243137446,,170.0
+panel_anyx trend=False placebo=False,rank+r_ea30+r_size+r_len+r_math,r_len,0.005274488949268154,0.47074954784099254,,170.0
+panel_anyx trend=False placebo=False,rank+r_ea30+r_size+r_len+r_math,r_math,0.0029042997481406574,0.5555229564317773,,170.0
+panel_anyx trend=False placebo=True,r_ea30,r_ea30,0.007129378145959099,0.039930662377349935,,170.0
+panel_anyx trend=False placebo=True,r_ea_any,r_ea_any,0.007240624342677393,0.037625581205954405,,170.0
+panel_anyx trend=False placebo=True,rank+r_ea30,rank,-0.00292615596830182,0.24356448822544385,,170.0
+panel_anyx trend=False placebo=True,rank+r_ea30,r_ea30,0.0054856016184477285,0.13485301305008038,,170.0
+panel_anyx trend=False placebo=True,rank+r_ea30,rank:r_ea30,0.009507370170639509,0.40621980291355086,,170.0
+panel_anyx trend=False placebo=True,r_ea30_self+r_ea30_other,r_ea30_self,0.0066743517940027,0.03957745044730487,,170.0
+panel_anyx trend=False placebo=True,r_ea30_self+r_ea30_other,r_ea30_other,0.0028766902172988303,0.4162579526623148,,170.0
+panel_anyx trend=False placebo=True,rank+r_ea30+r_size+r_len+r_math,rank,0.004080964327658445,0.37808446795298134,,170.0
+panel_anyx trend=False placebo=True,rank+r_ea30+r_size+r_len+r_math,r_ea30,0.004069862019981607,0.22019663821881186,,170.0
+panel_anyx trend=False placebo=True,rank+r_ea30+r_size+r_len+r_math,r_size,0.003540992447454955,0.43270408047361986,,170.0
+panel_anyx trend=False placebo=True,rank+r_ea30+r_size+r_len+r_math,r_len,0.009723297838876294,0.10766489422450284,,170.0
+panel_anyx trend=False placebo=True,rank+r_ea30+r_size+r_len+r_math,r_math,0.0005261608931390843,0.9134850882906265,,170.0
+panel_anyx trend=True placebo=False,r_ea30,r_ea30,-0.025643537729585924,4.437385471869118e-06,,170.0
+panel_anyx trend=True placebo=False,r_ea_any,r_ea_any,-0.024963567550319414,8.440378647249196e-06,,170.0
+panel_anyx trend=True placebo=False,rank+r_ea30,rank,0.013396674865037407,0.00013520578331577542,,170.0
+panel_anyx trend=True placebo=False,rank+r_ea30,r_ea30,-0.019863868015989022,3.421564511180458e-05,,170.0
+panel_anyx trend=True placebo=False,rank+r_ea30,rank:r_ea30,-0.02609397923360731,0.07542138224737056,,170.0
+panel_anyx trend=True placebo=False,r_ea30_self+r_ea30_other,r_ea30_self,-0.024212636868226303,2.92754392632865e-07,,170.0
+panel_anyx trend=True placebo=False,r_ea30_self+r_ea30_other,r_ea30_other,-0.005620928083745911,0.19907877919289096,,170.0
+panel_anyx trend=True placebo=False,rank+r_ea30+r_size+r_len+r_math,rank,0.005374700232370567,0.18240809060697583,,170.0
+panel_anyx trend=True placebo=False,rank+r_ea30+r_size+r_len+r_math,r_ea30,-0.020564495063911732,1.9996877441002854e-05,,170.0
+panel_anyx trend=True placebo=False,rank+r_ea30+r_size+r_len+r_math,r_size,-0.015150115065814047,0.004283593631615481,,170.0
+panel_anyx trend=True placebo=False,rank+r_ea30+r_size+r_len+r_math,r_len,-0.011694535202308506,0.011003037944179521,,170.0
+panel_anyx trend=True placebo=False,rank+r_ea30+r_size+r_len+r_math,r_math,0.00478092858968136,0.22566847350583863,,170.0
+panel_anyx trend=True placebo=True,r_ea30,r_ea30,-0.0018147697530043068,0.5885584220012203,,170.0
+panel_anyx trend=True placebo=True,r_ea_any,r_ea_any,-0.0012003457114855784,0.7263653960344816,,170.0
+panel_anyx trend=True placebo=True,rank+r_ea30,rank,0.003489464191222909,0.27184912030230446,,170.0
+panel_anyx trend=True placebo=True,rank+r_ea30,r_ea30,-0.0032603407922732084,0.3713760945626121,,170.0
+panel_anyx trend=True placebo=True,rank+r_ea30,rank:r_ea30,0.02047963172071339,0.03663006797294998,,170.0
+panel_anyx trend=True placebo=True,r_ea30_self+r_ea30_other,r_ea30_self,-0.0014232099705985646,0.6241758691188944,,170.0
+panel_anyx trend=True placebo=True,r_ea30_self+r_ea30_other,r_ea30_other,-0.0005536961960025682,0.8723974247442268,,170.0
+panel_anyx trend=True placebo=True,rank+r_ea30+r_size+r_len+r_math,rank,0.0026038586906393883,0.5198088340913927,,170.0
+panel_anyx trend=True placebo=True,rank+r_ea30+r_size+r_len+r_math,r_ea30,0.00043969571119605445,0.9034217537223181,,170.0
+panel_anyx trend=True placebo=True,rank+r_ea30+r_size+r_len+r_math,r_size,-0.005157946444512538,0.3609782346668572,,170.0
+panel_anyx trend=True placebo=True,rank+r_ea30+r_size+r_len+r_math,r_len,-0.004477240531421817,0.4458849228084645,,170.0
+panel_anyx trend=True placebo=True,rank+r_ea30+r_size+r_len+r_math,r_math,0.0006681714066161014,0.894149839077409,,170.0
+RI ext notrend,r_ea30,r_ea30,-0.015489829399175035,0.0,,170.0
+answers_unedited placebo=False,r_ea30,r_ea30,-0.018611163690528572,0.00010357071628627622,,170.0
+answers_unedited placebo=True,r_ea30,r_ea30,-0.0003461269381172915,0.8959250724213819,,170.0
+answers_edited placebo=False,r_ea30,r_ea30,-0.005638902643667941,0.14809752017630623,,170.0
+answers_edited placebo=True,r_ea30,r_ea30,0.0026412153654583256,0.3709838794281015,,170.0

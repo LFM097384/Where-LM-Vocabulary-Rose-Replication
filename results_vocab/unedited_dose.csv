@@ -1,0 +1,65 @@
+sample,outcome,spec,trend,placebo,term,b,p
+unedited,ext,r_edit:post,False,False,r_edit,-0.0178621339499955,0.0001697388221165981
+unedited,ext,r_edit:post,False,True,r_edit,-2.8311210003776285e-05,0.9913404136128061
+unedited,ext,r_edit:post,True,False,r_edit,-0.01856153362086185,0.00011599934020170544
+unedited,ext,r_edit:post,True,True,r_edit,-0.0015315263293919107,0.6655025954960255
+unedited,ext,rank:post,False,False,rank,0.006742167104194454,0.033428667035128326
+unedited,ext,rank:post,False,True,rank,-0.0023217440891058283,0.18501590633401488
+unedited,ext,rank:post,True,False,rank,0.010172736277678732,0.0012624812408295332
+unedited,ext,rank:post,True,True,rank,-0.0009407604954398332,0.7323153921648999
+unedited,ext,rank:post + r_edit:post,False,False,rank,0.0046749543537119,0.08514319233109968
+unedited,ext,rank:post + r_edit:post,False,False,r_edit,-0.016941687647161387,0.0002335988363575015
+unedited,ext,rank:post + r_edit:post,False,True,rank,-0.0023729105732647484,0.17921527489651323
+unedited,ext,rank:post + r_edit:post,False,True,r_edit,-0.00045793320511297694,0.8557512252752646
+unedited,ext,rank:post + r_edit:post,True,False,rank,0.008102734350393777,0.003036482670950098
+unedited,ext,rank:post + r_edit:post,True,False,r_edit,-0.016973979981431707,9.711780909881746e-05
+unedited,ext,rank:post + r_edit:post,True,True,rank,-0.00113763299655374,0.6841518115663378
+unedited,ext,rank:post + r_edit:post,True,True,r_edit,-0.001739540371842383,0.6223096090669169
+unedited,anyx,r_edit:post,False,False,r_edit,-0.014273725546834194,0.016375825969339747
+unedited,anyx,r_edit:post,False,True,r_edit,0.0076143210070611644,0.02843935075685642
+unedited,anyx,r_edit:post,True,False,r_edit,-0.026555258938326505,2.359132321701854e-05
+unedited,anyx,r_edit:post,True,True,r_edit,-0.0022124414212026018,0.5316000294549454
+unedited,anyx,rank:post,False,False,rank,0.005460856715090518,0.16906895667402577
+unedited,anyx,rank:post,False,True,rank,-0.0066279523822374165,0.003593802291824759
+unedited,anyx,rank:post,True,False,rank,0.016084930890152567,0.0003684047050717169
+unedited,anyx,rank:post,True,True,rank,0.0011137342351520084,0.6571923936656823
+unedited,anyx,rank:post + r_edit:post,False,False,rank,0.003810736856070707,0.30781809563102935
+unedited,anyx,rank:post + r_edit:post,False,False,r_edit,-0.013523434017793058,0.019559496133709983
+unedited,anyx,rank:post + r_edit:post,False,True,rank,-0.005896460971742748,0.004537258186574989
+unedited,anyx,rank:post + r_edit:post,False,True,r_edit,0.006546750507226315,0.04191943723998051
+unedited,anyx,rank:post + r_edit:post,True,False,rank,0.013160941774707717,0.0009359461902216991
+unedited,anyx,rank:post + r_edit:post,True,False,r_edit,-0.023976660145716307,1.3889699035455258e-05
+unedited,anyx,rank:post + r_edit:post,True,True,rank,0.0008815845186381297,0.7233000708110505
+unedited,anyx,rank:post + r_edit:post,True,True,r_edit,-0.0020512453588164793,0.557812001520638
+edited,ext,r_edit:post,False,False,r_edit,-0.005528327347254214,0.14449228557548732
+edited,ext,r_edit:post,False,True,r_edit,0.002747311062237997,0.34501535596729316
+edited,ext,r_edit:post,True,False,r_edit,-0.009011105083305347,0.05304430347658812
+edited,ext,r_edit:post,True,True,r_edit,0.0015273089221827104,0.6433739770339378
+edited,ext,rank:post,False,False,rank,0.0026391406756008495,0.3244898313708551
+edited,ext,rank:post,False,True,rank,0.0011199163656542225,0.6940915681555313
+edited,ext,rank:post,True,False,rank,0.0043067443226336,0.24563911210641043
+edited,ext,rank:post,True,True,rank,0.0047322485952504675,0.04159261173042159
+edited,ext,rank:post + r_edit:post,False,False,rank,0.0021570719931970454,0.41221555512378205
+edited,ext,rank:post + r_edit:post,False,False,r_edit,-0.005159424119499426,0.16345538708284346
+edited,ext,rank:post + r_edit:post,False,True,rank,0.0013431324209633455,0.6377155855746834
+edited,ext,rank:post + r_edit:post,False,True,r_edit,0.0029351364923373376,0.3197508284738002
+edited,ext,rank:post + r_edit:post,True,False,rank,0.0035773903201932306,0.3271129025445918
+edited,ext,rank:post + r_edit:post,True,False,r_edit,-0.008446846604669538,0.060933316116604616
+edited,ext,rank:post + r_edit:post,True,True,rank,0.004893534384512703,0.029311513295069282
+edited,ext,rank:post + r_edit:post,True,True,r_edit,0.0021877617794769893,0.47222616020831376
+edited,anyx,r_edit:post,False,False,r_edit,-0.005278606089423595,0.4522833506474466
+edited,anyx,r_edit:post,False,True,r_edit,0.010873341606851432,0.031338473293518784
+edited,anyx,r_edit:post,True,False,r_edit,-0.019014170589842047,0.007315082725562125
+edited,anyx,r_edit:post,True,True,r_edit,0.004310471573495961,0.5043732758163156
+edited,anyx,rank:post,False,False,rank,0.003797146895937564,0.5331008534533397
+edited,anyx,rank:post,False,True,rank,0.0004841626581600637,0.9238920136187334
+edited,anyx,rank:post,True,False,rank,0.010535824070139354,0.04837446443103988
+edited,anyx,rank:post,True,True,rank,0.011345926669645024,0.03240902336111226
+edited,anyx,rank:post + r_edit:post,False,False,rank,0.0033575942227546353,0.5789020036570233
+edited,anyx,rank:post + r_edit:post,False,False,r_edit,-0.004704389118376258,0.4941958178815993
+edited,anyx,rank:post + r_edit:post,False,True,rank,0.001325169324985072,0.788997337064318
+edited,anyx,rank:post + r_edit:post,False,True,r_edit,0.011058655053638131,0.02737433314771233
+edited,anyx,rank:post + r_edit:post,True,False,rank,0.009016823713518383,0.07282633922482133
+edited,anyx,rank:post + r_edit:post,True,False,r_edit,-0.01759195529451929,0.0072285156447482405
+edited,anyx,rank:post + r_edit:post,True,True,rank,0.011780920543529553,0.02553526459742112
+edited,anyx,rank:post + r_edit:post,True,True,r_edit,0.005900476266046194,0.3285336317423566

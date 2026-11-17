@@ -1,0 +1,14 @@
+# intermediate data (distributed as a release asset, over GitHub limits)
+data_all/
+vocab/
+data_edit/
+snap/
+raw_all/
+raw_snap/
+intermediate_data.zip
+# run logs and figure previews
+logs/
+paper/*.png
+__pycache__/
+*.pyc
+.DS_Store
